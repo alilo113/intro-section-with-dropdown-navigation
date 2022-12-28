@@ -4,18 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/nav-bar.css">
+  <link rel="stylesheet" href="../css/drop-down.css">
   <link rel="stylesheet" href="../css/body.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <title>dropdown navigation</title>
 </head>
 <body>
   <div class="nav-bar">
-    <div class="nav-bar-container">
       <div class="logo">
         <img src="../css/images/logo.svg" alt="" srcset="">
       </div>
       <nav>
-        <a href="#">Features</a>
+        <a href="#" id="features">Features</a>
         <a href="#">Company</a>
         <a href="#">Careers</a>
         <a href="#">About</a>
@@ -28,7 +27,25 @@
           <button>Register</button>
         </div>
       </div>
+    <div class="drop-down" id="drop-down">
+      <div>
+        <img src="../css/images/icon-todo.svg" alt="" srcset="">
+        <span>Todo List</span><br>
+      </div>
+      <div>
+        <img src="../css/images/icon-calendar.svg" alt="" srcset="">
+        <span>Calander</span><br>
+      </div>
+      <div>
+        <img src="../css/images/icon-reminders.svg" alt="" srcset="">
+        <span>Reminder</span><br>
+      </div>
+      <div>
+        <img src="../css/images/icon-planning.svg" alt="" srcset="">
+        <span>Planing</span><br>
+      </div>
     </div>
   </div>
+  <script src="../javaScript/displaying.js"></script>
 </body>
 </html>
