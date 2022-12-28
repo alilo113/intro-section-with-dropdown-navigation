@@ -1,0 +1,15 @@
+.drop-down{
+    margin: 72px 10%;
+    background-color: #fafafa;
+    position: absolute;
+    visibility: hidden;
+    height: 157px;
+    width: 100px;
+    padding: 24px;
+}
+
+.drop-down
+div{
+    cursor: pointer;
+    margin: 0px 0px 25px;
+}
