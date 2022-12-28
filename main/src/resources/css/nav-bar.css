@@ -1,45 +1,45 @@
 .nav-bar{
-    z-index: 12;
+    display: flex;
 }
 
 .logo{
-    margin: 32px 43px;
-    position: absolute;
+    margin: 31px 41px;
 }
 
 nav{
-    float: left;
-    margin: 32px 186px;
+    margin: 30px;
+    margin-left: 12px;
 }
 
 nav a{
     text-decoration: none;
-    color: #696969;
-    padding: 15px;
+    color:#696969;
+    padding: 13px;
+}
+
+nav a:hover{
+    color: #000000;
 }
 
 .registraion{
-    float: right;
-    margin: 32px 181px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 30px;
 }
 
-.registraion
 .log-in
 a{
+    margin-right: 43px;
     text-decoration: none;
     color: black;
-    position: absolute;
 }
 
-.registraion
 .register-btn
 button{
-    height: 39px;
-    width: 101px;
-    margin-left: 90%;
+    position: absolute;
+    padding: 11px 22px; 
     margin-top: -10px;
     border-radius: 13px;
-    border-style: solid;
     background-color: transparent;
-    text-align: center;
 }
