@@ -23,14 +23,13 @@ nav a:hover{
 
 .registraion{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10%;
-    margin-top: 30px;
+    position: absolute;
+    column-gap: 50%;
+    margin: 30px 78rem;
 }
 
 .log-in
 a{
-    margin-right: 43px;
     text-decoration: none;
     color: black;
 }
@@ -42,4 +41,5 @@ button{
     margin-top: -10px;
     border-radius: 13px;
     background-color: transparent;
+    border-style: solid;
 }
